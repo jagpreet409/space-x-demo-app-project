@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+.grid-container {
+  width: 78%;
+  display: grid;
+  margin: 0 auto;
+  margin-left: 14em;
+  margin-top: -48em;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-gap: 10px;
+}
